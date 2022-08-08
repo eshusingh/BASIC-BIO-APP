@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ABOUT ME</string>
+    <string name="NAME">ESHU</string>
+    <string name="AVATAR">avatar</string>
+    <string name="mydes">My name is Eshmeeta Singh. \n
+I am an undergrad student at National Institute of Technology Srinagar.\n
+ I am pursuing my bachelors in Computer Science Engineering.\n
+I am a third year student passionate about XR - VIRTUAL AND AUGUMENTED REALITY DEVELOPMENT. \n
+
+I am from Srinagar,Kashmir,India. \n
+I have done my schooling from PRESENTATION CONVENT HIGH SCHOOL. \n
+I have passed my matriculation exam with 99% score and 12 standard with 97% score.
+
+I love being around pets.\n
+I have a pet dog.\m
+She is a chowski . Her name is Rusty.
+She is 4 years old.</string>
+    <string name="mypic">myPIC</string>
+    <string name="what_is_your_full_name">what is your full name</string>
+    <string name="DONEB">DONE</string>
+</resources>

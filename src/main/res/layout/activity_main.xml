@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/namepadding"
+    android:paddingEnd="@dimen/namepadding"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NAME"
+        style="@style/my_name" />
+
+    <EditText
+        android:id="@+id/urname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/what_is_your_full_name" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="DONE" />
+
+    <TextView
+        android:id="@+id/STATEMENT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/myphoto"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_marginTop="@dimen/namemargin"
+        android:src="@drawable/rusty"
+
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mydetails"
+            style="@style/my_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mydes" />
+    </ScrollView>
+
+
+
+
+</LinearLayout>

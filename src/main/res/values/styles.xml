@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="my_name">
+        <item name="android:layout_marginTop">@dimen/namemargin</item>
+        <item name="android:fontFamily">@font/alfa_slab_one</item>
+        <item name="android:paddingTop">@dimen/namepadding</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#C62C2C</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+</resources>
